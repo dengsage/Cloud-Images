@@ -1,3 +1,3 @@
 # Cloud-Images
 
-A github cloud images repo.
+A personal cloud images repo built by Github.
