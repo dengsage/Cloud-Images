@@ -10,6 +10,223 @@
         "library": "Lineage",
         "libraryId": "assetType:66d815fbdfeaf634f5477660",
         "hasMore": true,
+        "entity": {
+            "data": {
+                "preview": "/api/v1.0/previews/materials/compounds/asset/66dfb8408c549236c1198b96/66dfb83ec710c56eadba39fb/A-0002.svg",
+                "assetTypeId": "66d815fbdfeaf634f5477660",
+                "type": "COMPOUNDS",
+                "reference": "A-0002",
+                "batches": {
+                    "batches": [],
+                    "count": 0,
+                    "total": 22
+                },
+                "library": "Lineage",
+                "assetLevelName": "Asset",
+                "assetId": "66dfb8408c549236c1198b96",
+                "drawing": "/api/v1.0/assets/66d815fbdfeaf634f5477660/assets/66dfb8408c549236c1198b96/attachments/66d815fbdfeaf634f5477659/66dfb83ec710c56eadba39fb/A-0002.cdxml",
+                "digest": "78894648",
+                "uniqueAsset": false,
+                "fields": {
+                    "Chemical Structure": {
+                        "canEdit": true,
+                        "id": "66d815fbdfeaf634f5477659",
+                        "type": "CHEMICAL_DRAWING",
+                        "value": {
+                            "fileId": "66dfb83ec710c56eadba39fb",
+                            "link": "/api/v1.0/assets/66d815fbdfeaf634f5477660/assets/66dfb8408c549236c1198b96/attachments/66d815fbdfeaf634f5477659/66dfb83ec710c56eadba39fb",
+                            "fileName": "untitled.cdxml",
+                            "mimeType": "chemical/x-cdxml",
+                            "size": 3651
+                        },
+                        "isMandatory": true,
+                        "isHidden": true
+                    },
+                    "Exact Mass": {
+                        "isCalculated": true,
+                        "canEdit": false,
+                        "raw": 140.1565,
+                        "id": "66d815fbdfeaf634f5477662",
+                        "type": "DECIMAL",
+                        "value": "140.1565",
+                        "isMandatory": false,
+                        "isHidden": false
+                    },
+                    "Chemical Name": {
+                        "canEdit": true,
+                        "id": "66d815fbdfeaf634f5477658",
+                        "type": "TEXT",
+                        "value": "pentylcyclopentane",
+                        "isMandatory": true,
+                        "isHidden": false
+                    },
+                    "Lineage Parents": {
+                        "isCalculated": false,
+                        "canEdit": true,
+                        "values": [
+                            {
+                                "name": "A-0001",
+                                "eid": "asset:66d816ba620a392373821b70",
+                                "type": "asset"
+                            },
+                            {
+                                "eid": "batch:66ea324814454972711b6536",
+                                "name": "A-0006-B-001",
+                                "type": "batch",
+                                "exId": "ExID.4b800.000"
+                            }
+                        ],
+                        "id": "66d8164c620a392373821b69",
+                        "type": "LINK",
+                        "relationship": "LINEAGE_PARENT",
+                        "isMandatory": false,
+                        "isHidden": false,
+                        "multiSelect": true
+                    },
+                    "Molecular Weight": {
+                        "isCalculated": true,
+                        "canEdit": false,
+                        "raw": 140.27,
+                        "id": "66d815fbdfeaf634f5477661",
+                        "type": "MOLECULAR_MASS",
+                        "value": "140.27 g/mol",
+                        "isMandatory": false,
+                        "isHidden": false
+                    },
+                    "Molecular Formula": {
+                        "isCalculated": true,
+                        "canEdit": false,
+                        "raw": "C10H20",
+                        "id": "66d815fbdfeaf634f5477663",
+                        "type": "MOLECULAR_FORMULA",
+                        "value": "C<sub>10</sub>H<sub>20</sub>",
+                        "isMandatory": false,
+                        "isHidden": false
+                    }
+                },
+                "assetNameFieldId": "66d815fbdfeaf634f5477658"
+            },
+            "eid": "asset:66dfb8408c549236c1198b96",
+            "alternateId": 2219,
+            "exId": "ExID.ba800.000",
+            "name": "A-0002",
+            "description": "",
+            "type": "asset",
+            "createdAt": "2024-09-10T03:08:48.825Z",
+            "modifiedAt": "2024-10-23T05:17:22.752Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "digest": "91608198",
+            "systemTemplateDigest": "0",
+            "owner": {
+                "user": {
+                    "userId": "100",
+                    "userName": "leiquan.deng@revvity.com",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "email": "leiquan.deng@revvity.com",
+                    "firstName": "LQ",
+                    "lastName": "Deng",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "descendants": {
+                "digest": "88335229",
+                "modifiedAt": "2024-10-23T05:17:24.435Z",
+                "modifiedBy": {
+                    "userId": "100",
+                    "userName": "leiquan.deng@revvity.com",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "email": "leiquan.deng@revvity.com",
+                    "firstName": "LQ",
+                    "lastName": "Deng",
+                    "picture": {},
+                    "isEnabled": true
+                },
+                "comments": {
+                    "digest": "0"
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                }
+            ],
+            "flags": {
+                "isSystem": false,
+                "canTrash": true,
+                "canEditName": true,
+                "isTemplate": false,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            },
+            "comments": {
+                "digest": "0",
+                "count": 0
+            },
+            "fields": {
+                "Chemical Name": "pentylcyclopentane",
+                "Description": "",
+                "Exact Mass": "140.1565",
+                "Lineage Parents": [
+                    {
+                        "name": "A-0001",
+                        "eid": "asset:66d816ba620a392373821b70",
+                        "type": "asset"
+                    },
+                    {
+                        "eid": "batch:66ea324814454972711b6536",
+                        "name": "A-0006-B-001",
+                        "type": "batch",
+                        "exId": "ExID.4b800.000"
+                    }
+                ],
+                "Material Library Type": "Lineage",
+                "Molecular Formula": "C<sub>10</sub>H<sub>20</sub>",
+                "Molecular Weight": "140.27 g/mol",
+                "Name": "A-0002"
+            },
+            "fieldDetails": {},
+            "attributeDetails": [],
+            "mandatory": false
+        },
         "fetched": true,
         "isCurrent": true,
         "createdAt": "2024-09-10T03:08:48.825Z",
@@ -29,6 +246,89 @@
         "library": "Lineage",
         "libraryId": "assetType:66d815fbdfeaf634f5477660",
         "hasMore": false,
+        "entity": {
+            "description": "",
+            "createdAt": "2024-09-18T01:52:08.142Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "modifiedAt": "2024-10-18T08:17:01.285Z",
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                },
+                {
+                    "type": "asset",
+                    "eid": "asset:66ea324714454972711b6535",
+                    "name": "A-0006",
+                    "digest": "91554600",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "A-0006"
+                    },
+                    "flags": {}
+                }
+            ],
+            "type": "batch",
+            "eid": "batch:66ea324814454972711b6536",
+            "name": "A-0006-B-001",
+            "digest": "12451074",
+            "fields": {
+                "Description": "",
+                "Name": "A-0006-B-001"
+            },
+            "flags": {
+                "canTrash": true,
+                "canEditName": true,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            }
+        },
         "fetched": true,
         "isCurrent": false,
         "createdAt": "2024-09-18T01:52:08.142Z",
@@ -48,6 +348,79 @@
         "library": "Lineage",
         "libraryId": "assetType:66d815fbdfeaf634f5477660",
         "hasMore": true,
+        "entity": {
+            "description": "",
+            "createdAt": "2024-09-04T08:13:46.448Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "modifiedAt": "2024-09-04T08:13:46.448Z",
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                }
+            ],
+            "type": "asset",
+            "eid": "asset:66d816ba620a392373821b70",
+            "name": "A-0001",
+            "digest": "46794720",
+            "fields": {
+                "Description": "",
+                "Material Library Type": "Lineage",
+                "Name": "A-0001"
+            },
+            "flags": {
+                "canTrash": true,
+                "canEditName": true,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            }
+        },
         "fetched": true,
         "isCurrent": false,
         "createdAt": "2024-09-04T08:13:46.448Z",
@@ -67,6 +440,79 @@
         "library": "CSL",
         "libraryId": "assetType:6551c9fb0ff1e638731b9688",
         "hasMore": false,
+        "entity": {
+            "description": "",
+            "createdAt": "2023-11-13T07:04:23.163Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "modifiedAt": "2023-11-13T07:04:23.163Z",
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:6551c9fb0ff1e638731b9688",
+                    "name": "CSL",
+                    "digest": "19922498",
+                    "fields": {
+                        "Material Library Type": "CSL",
+                        "Name": "CSL"
+                    },
+                    "flags": {}
+                }
+            ],
+            "type": "asset",
+            "eid": "asset:6551ca770ff1e638731b9690",
+            "name": "CSA-00001",
+            "digest": "43227706",
+            "fields": {
+                "Description": "",
+                "Material Library Type": "CSL",
+                "Name": "CSA-00001"
+            },
+            "flags": {
+                "canTrash": true,
+                "canEditName": true,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            }
+        },
         "fetched": true,
         "isCurrent": false,
         "createdAt": "2023-11-13T07:04:23.163Z",
@@ -86,6 +532,79 @@
         "library": "Antibodies",
         "libraryId": "assetType:64ec0aaaef7aa018efbc3824",
         "hasMore": false,
+        "entity": {
+            "description": "",
+            "createdAt": "2023-08-30T04:41:49.119Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "modifiedAt": "2023-08-30T04:41:49.119Z",
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:64ec0aaaef7aa018efbc3824",
+                    "name": "Antibodies",
+                    "digest": "91952005",
+                    "fields": {
+                        "Material Library Type": "Antibodies",
+                        "Name": "Antibodies"
+                    },
+                    "flags": {}
+                }
+            ],
+            "type": "asset",
+            "eid": "asset:64eec88d3c1aee6e2a0803b3",
+            "name": "001",
+            "digest": "36216415",
+            "fields": {
+                "Description": "",
+                "Material Library Type": "Antibodies",
+                "Name": "001"
+            },
+            "flags": {
+                "canTrash": true,
+                "canEditName": true,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            }
+        },
         "fetched": true,
         "isCurrent": false,
         "createdAt": "2023-08-30T04:41:49.119Z",
@@ -105,6 +624,79 @@
         "library": "Lineage",
         "libraryId": "assetType:66d815fbdfeaf634f5477660",
         "hasMore": true,
+        "entity": {
+            "description": "",
+            "createdAt": "2024-09-11T08:11:46.893Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "modifiedAt": "2024-09-11T08:11:46.893Z",
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                }
+            ],
+            "type": "asset",
+            "eid": "asset:66e150c2c36b9565dd3db1ad",
+            "name": "A-0004",
+            "digest": "88283981",
+            "fields": {
+                "Description": "",
+                "Material Library Type": "Lineage",
+                "Name": "A-0004"
+            },
+            "flags": {
+                "canTrash": true,
+                "canEditName": true,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            }
+        },
         "fetched": true,
         "isCurrent": false,
         "createdAt": "2024-09-11T08:11:46.893Z",
@@ -124,6 +716,79 @@
         "library": "Lineage",
         "libraryId": "assetType:66d815fbdfeaf634f5477660",
         "hasMore": true,
+        "entity": {
+            "description": "",
+            "createdAt": "2024-09-18T01:52:07.446Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "modifiedAt": "2024-10-18T08:17:00.582Z",
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                }
+            ],
+            "type": "asset",
+            "eid": "asset:66ea324714454972711b6535",
+            "name": "A-0006",
+            "digest": "91554600",
+            "fields": {
+                "Description": "",
+                "Material Library Type": "Lineage",
+                "Name": "A-0006"
+            },
+            "flags": {
+                "canTrash": true,
+                "canEditName": true,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            }
+        },
         "fetched": true,
         "isCurrent": false,
         "createdAt": "2024-09-18T01:52:07.446Z",
@@ -137,37 +802,91 @@
         "name": "A-0007",
         "type": "asset",
         "dir": "child",
-        "mode": "open",
+        "mode": "closed",
         "parent": "asset:66ea324714454972711b6535",
         "eid": "asset:66f2166fc189707e134a0c2a",
         "library": "Lineage",
         "libraryId": "assetType:66d815fbdfeaf634f5477660",
         "hasMore": true,
+        "entity": {
+            "description": "",
+            "createdAt": "2024-09-24T01:31:27.798Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "modifiedAt": "2024-10-22T01:57:09.645Z",
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                }
+            ],
+            "type": "asset",
+            "eid": "asset:66f2166fc189707e134a0c2a",
+            "name": "A-0007",
+            "digest": "79056074",
+            "fields": {
+                "Description": "",
+                "Material Library Type": "Lineage",
+                "Name": "A-0007"
+            },
+            "flags": {
+                "canTrash": true,
+                "canEditName": true,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            }
+        },
         "fetched": true,
         "isCurrent": false,
         "createdAt": "2024-09-24T01:31:27.798Z",
         "modifiedAt": "2024-10-22T01:57:09.645Z",
         "hasMoreBatches": false,
         "canSelectBatches": true,
-        "hasSelectedBatches": false
-    },
-    {
-        "id": "batch:66f21670c189707e134a0c2b",
-        "name": "A-0007-B-001",
-        "type": "batch",
-        "dir": "child",
-        "mode": "closed",
-        "parent": "asset:66f2166fc189707e134a0c2a",
-        "eid": "batch:66f21670c189707e134a0c2b",
-        "library": "Lineage",
-        "libraryId": "assetType:66d815fbdfeaf634f5477660",
-        "hasMore": false,
-        "fetched": true,
-        "isCurrent": false,
-        "createdAt": "2024-09-24T01:31:28.675Z",
-        "modifiedAt": "2024-10-22T01:57:10.828Z",
-        "hasMoreBatches": false,
-        "canSelectBatches": false,
         "hasSelectedBatches": false
     },
     {
@@ -180,6 +899,108 @@
         "eid": "batch:66ea324814454972711b6536",
         "library": "Lineage",
         "libraryId": "assetType:66d815fbdfeaf634f5477660",
+        "entity": {
+            "data": {},
+            "eid": "batch:66ea324814454972711b6536",
+            "alternateId": 2228,
+            "exId": "ExID.4b800.000",
+            "name": "A-0006-B-001",
+            "description": "",
+            "type": "batch",
+            "createdAt": "2024-09-18T01:52:08.142Z",
+            "modifiedAt": "2024-10-18T08:17:01.285Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "digest": "12451074",
+            "systemTemplateDigest": "0",
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "descendants": {
+                "digest": "0",
+                "comments": {
+                    "digest": "0"
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                },
+                {
+                    "type": "asset",
+                    "eid": "asset:66ea324714454972711b6535",
+                    "name": "A-0006",
+                    "digest": "91554600",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "A-0006"
+                    },
+                    "flags": {}
+                }
+            ],
+            "flags": {
+                "isSystem": false,
+                "canTrash": true,
+                "canEditName": true,
+                "isTemplate": false,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            },
+            "comments": {
+                "digest": "0",
+                "count": 0
+            },
+            "fields": {
+                "Description": "",
+                "Name": "A-0006-B-001"
+            },
+            "fieldDetails": {},
+            "attributeDetails": [],
+            "mandatory": false
+        },
         "hasMore": true,
         "fetched": true,
         "isCurrent": false,
@@ -195,18 +1016,398 @@
         "name": "A-0005",
         "type": "asset",
         "dir": "child",
-        "mode": "closed",
+        "mode": "open",
         "parent": "asset:66e150c2c36b9565dd3db1ad",
         "eid": "asset:66e2851bdefc5056ea3b5e9c",
         "library": "Lineage",
         "libraryId": "assetType:66d815fbdfeaf634f5477660",
         "hasMore": true,
+        "entity": {
+            "description": "",
+            "createdAt": "2024-09-12T06:07:23.777Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "modifiedAt": "2024-09-24T01:32:41.895Z",
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                }
+            ],
+            "type": "asset",
+            "eid": "asset:66e2851bdefc5056ea3b5e9c",
+            "name": "A-0005",
+            "digest": "64408764",
+            "fields": {
+                "Description": "",
+                "Material Library Type": "Lineage",
+                "Name": "A-0005"
+            },
+            "flags": {
+                "canTrash": true,
+                "canEditName": true,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            }
+        },
         "fetched": true,
         "isCurrent": false,
         "createdAt": "2024-09-12T06:07:23.777Z",
         "modifiedAt": "2024-09-24T01:32:41.895Z",
         "hasMoreBatches": false,
         "canSelectBatches": true,
+        "hasSelectedBatches": false
+    },
+    {
+        "id": "asset:66f2166fc189707e134a0c2a¡",
+        "name": "A-0007",
+        "type": "asset",
+        "dir": "child",
+        "mode": "closed",
+        "parent": "asset:66e2851bdefc5056ea3b5e9c",
+        "eid": "asset:66f2166fc189707e134a0c2a",
+        "library": "Lineage",
+        "libraryId": "assetType:66d815fbdfeaf634f5477660",
+        "entity": {
+            "description": "",
+            "createdAt": "2024-09-24T01:31:27.798Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "modifiedAt": "2024-10-22T01:57:09.645Z",
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                }
+            ],
+            "type": "asset",
+            "eid": "asset:66f2166fc189707e134a0c2a",
+            "name": "A-0007",
+            "digest": "79056074",
+            "fields": {
+                "Description": "",
+                "Material Library Type": "Lineage",
+                "Name": "A-0007"
+            },
+            "flags": {
+                "canTrash": true,
+                "canEditName": true,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            }
+        },
+        "hasMore": true,
+        "fetched": true,
+        "isCurrent": false,
+        "createdAt": "2024-09-24T01:31:27.798Z",
+        "modifiedAt": "2024-10-22T01:57:09.645Z",
+        "duplicate": true,
+        "hasMoreBatches": false,
+        "canSelectBatches": true,
+        "hasSelectedBatches": false
+    },
+    {
+        "id": "asset:66ea324714454972711b6535¡",
+        "name": "A-0006",
+        "type": "asset",
+        "dir": "child",
+        "mode": "open",
+        "parent": "asset:66e2851bdefc5056ea3b5e9c",
+        "eid": "asset:66ea324714454972711b6535",
+        "library": "Lineage",
+        "libraryId": "assetType:66d815fbdfeaf634f5477660",
+        "entity": {
+            "description": "",
+            "createdAt": "2024-09-18T01:52:07.446Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "modifiedAt": "2024-10-18T08:17:00.582Z",
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                }
+            ],
+            "type": "asset",
+            "eid": "asset:66ea324714454972711b6535",
+            "name": "A-0006",
+            "digest": "91554600",
+            "fields": {
+                "Description": "",
+                "Material Library Type": "Lineage",
+                "Name": "A-0006"
+            },
+            "flags": {
+                "canTrash": true,
+                "canEditName": true,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            }
+        },
+        "hasMore": true,
+        "fetched": true,
+        "isCurrent": false,
+        "createdAt": "2024-09-18T01:52:07.446Z",
+        "modifiedAt": "2024-10-18T08:17:00.582Z",
+        "duplicate": true,
+        "hasMoreBatches": false,
+        "canSelectBatches": true,
+        "hasSelectedBatches": false
+    },
+    {
+        "id": "batch:66e2851cdefc5056ea3b5e9d",
+        "name": "A-0005-B-001",
+        "type": "batch",
+        "dir": "child",
+        "mode": "closed",
+        "parent": "asset:66e2851bdefc5056ea3b5e9c",
+        "eid": "batch:66e2851cdefc5056ea3b5e9d",
+        "library": "Lineage",
+        "libraryId": "assetType:66d815fbdfeaf634f5477660",
+        "hasMore": false,
+        "entity": {
+            "data": {},
+            "eid": "batch:66e2851cdefc5056ea3b5e9d",
+            "alternateId": 2226,
+            "exId": "ExID.2b800.000",
+            "name": "A-0005-B-001",
+            "description": "",
+            "type": "batch",
+            "createdAt": "2024-09-12T06:07:24.665Z",
+            "modifiedAt": "2024-09-24T01:32:42.851Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "digest": "30144061",
+            "systemTemplateDigest": "0",
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "descendants": {
+                "digest": "0",
+                "comments": {
+                    "digest": "0"
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                },
+                {
+                    "type": "asset",
+                    "eid": "asset:66e2851bdefc5056ea3b5e9c",
+                    "name": "A-0005",
+                    "digest": "64408764",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "A-0005"
+                    },
+                    "flags": {}
+                }
+            ],
+            "flags": {
+                "isSystem": false,
+                "canTrash": true,
+                "canEditName": true,
+                "isTemplate": false,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            },
+            "comments": {
+                "digest": "0",
+                "count": 0
+            },
+            "fields": {
+                "Description": "",
+                "Name": "A-0005-B-001"
+            },
+            "fieldDetails": {},
+            "attributeDetails": [],
+            "mandatory": false
+        },
+        "fetched": true,
+        "isCurrent": false,
+        "createdAt": "2024-09-12T06:07:24.665Z",
+        "modifiedAt": "2024-09-24T01:32:42.851Z",
+        "hasMoreBatches": false,
+        "canSelectBatches": false,
         "hasSelectedBatches": false
     },
     {
@@ -220,6 +1421,108 @@
         "library": "Lineage",
         "libraryId": "assetType:66d815fbdfeaf634f5477660",
         "hasMore": false,
+        "entity": {
+            "data": {},
+            "eid": "batch:66e150c3c36b9565dd3db1ae",
+            "alternateId": 2224,
+            "exId": "ExID.0b800.000",
+            "name": "A-0004-B-001",
+            "description": "",
+            "type": "batch",
+            "createdAt": "2024-09-11T08:11:47.818Z",
+            "modifiedAt": "2024-09-11T08:11:47.818Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "digest": "54275950",
+            "systemTemplateDigest": "0",
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "descendants": {
+                "digest": "0",
+                "comments": {
+                    "digest": "0"
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                },
+                {
+                    "type": "asset",
+                    "eid": "asset:66e150c2c36b9565dd3db1ad",
+                    "name": "A-0004",
+                    "digest": "88283981",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "A-0004"
+                    },
+                    "flags": {}
+                }
+            ],
+            "flags": {
+                "isSystem": false,
+                "canTrash": true,
+                "canEditName": true,
+                "isTemplate": false,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            },
+            "comments": {
+                "digest": "0",
+                "count": 0
+            },
+            "fields": {
+                "Description": "",
+                "Name": "A-0004-B-001"
+            },
+            "fieldDetails": {},
+            "attributeDetails": [],
+            "mandatory": false
+        },
         "fetched": true,
         "isCurrent": false,
         "createdAt": "2024-09-11T08:11:47.818Z",
@@ -233,18 +1536,213 @@
         "name": "A-0002-B-001",
         "type": "batch",
         "dir": "child",
-        "mode": "closed",
+        "mode": "open",
         "parent": "asset:66dfb8408c549236c1198b96",
         "eid": "batch:66dfb8418c549236c1198b97",
         "library": "Lineage",
         "libraryId": "assetType:66d815fbdfeaf634f5477660",
         "hasMore": true,
+        "entity": {
+            "data": {},
+            "eid": "batch:66dfb8418c549236c1198b97",
+            "alternateId": 2220,
+            "exId": "ExID.ca800.000",
+            "name": "A-0002-B-001",
+            "description": "",
+            "type": "batch",
+            "createdAt": "2024-09-10T03:08:49.705Z",
+            "modifiedAt": "2024-10-23T05:17:24.245Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "digest": "54870834",
+            "systemTemplateDigest": "0",
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "descendants": {
+                "digest": "0",
+                "comments": {
+                    "digest": "0"
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                },
+                {
+                    "type": "asset",
+                    "eid": "asset:66dfb8408c549236c1198b96",
+                    "name": "A-0002",
+                    "digest": "91608198",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "A-0002"
+                    },
+                    "flags": {}
+                }
+            ],
+            "flags": {
+                "isSystem": false,
+                "canTrash": true,
+                "canEditName": true,
+                "isTemplate": false,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            },
+            "comments": {
+                "digest": "0",
+                "count": 0
+            },
+            "fields": {
+                "Description": "",
+                "Name": "A-0002-B-001"
+            },
+            "fieldDetails": {},
+            "attributeDetails": [],
+            "mandatory": false
+        },
         "fetched": true,
         "isCurrent": false,
         "createdAt": "2024-09-10T03:08:49.705Z",
         "modifiedAt": "2024-10-23T05:17:24.245Z",
         "hasMoreBatches": false,
         "canSelectBatches": false,
+        "hasSelectedBatches": false
+    },
+    {
+        "id": "asset:66e150c2c36b9565dd3db1ad¡",
+        "name": "A-0004",
+        "type": "asset",
+        "dir": "child",
+        "mode": "open",
+        "parent": "batch:66dfb8418c549236c1198b97",
+        "eid": "asset:66e150c2c36b9565dd3db1ad",
+        "library": "Lineage",
+        "libraryId": "assetType:66d815fbdfeaf634f5477660",
+        "entity": {
+            "description": "",
+            "createdAt": "2024-09-11T08:11:46.893Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "modifiedAt": "2024-09-11T08:11:46.893Z",
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                }
+            ],
+            "type": "asset",
+            "eid": "asset:66e150c2c36b9565dd3db1ad",
+            "name": "A-0004",
+            "digest": "88283981",
+            "fields": {
+                "Description": "",
+                "Material Library Type": "Lineage",
+                "Name": "A-0004"
+            },
+            "flags": {
+                "canTrash": true,
+                "canEditName": true,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            }
+        },
+        "hasMore": true,
+        "fetched": true,
+        "isCurrent": false,
+        "createdAt": "2024-09-11T08:11:46.893Z",
+        "modifiedAt": "2024-09-11T08:11:46.893Z",
+        "duplicate": true,
+        "hasMoreBatches": false,
+        "canSelectBatches": true,
         "hasSelectedBatches": false
     },
     {
@@ -258,29 +1756,112 @@
         "library": "Lineage",
         "libraryId": "assetType:66d815fbdfeaf634f5477660",
         "hasMore": false,
+        "entity": {
+            "data": {},
+            "eid": "batch:670f54e344fa872bd293de64",
+            "alternateId": 2251,
+            "exId": "ExID.bc800.000",
+            "name": "A-0002-B-002",
+            "description": "",
+            "type": "batch",
+            "createdAt": "2024-10-16T05:53:39.415Z",
+            "modifiedAt": "2024-10-23T05:17:24.265Z",
+            "createdBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "editedBy": {
+                "userId": "100",
+                "userName": "leiquan.deng@revvity.com",
+                "flags": {
+                    "isSystemStandardUser": true
+                },
+                "email": "leiquan.deng@revvity.com",
+                "firstName": "LQ",
+                "lastName": "Deng",
+                "picture": {},
+                "isEnabled": true
+            },
+            "digest": "59845295",
+            "systemTemplateDigest": "0",
+            "owner": {
+                "user": {
+                    "userId": "3",
+                    "userName": "system",
+                    "flags": {
+                        "isSystemStandardUser": true
+                    },
+                    "firstName": "System",
+                    "lastName": "",
+                    "picture": {},
+                    "isEnabled": true
+                }
+            },
+            "descendants": {
+                "digest": "0",
+                "comments": {
+                    "digest": "0"
+                }
+            },
+            "ancestors": [
+                {
+                    "type": "assetType",
+                    "eid": "assetType:66d815fbdfeaf634f5477660",
+                    "name": "Lineage",
+                    "digest": "26905793",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "Lineage"
+                    },
+                    "flags": {}
+                },
+                {
+                    "type": "asset",
+                    "eid": "asset:66dfb8408c549236c1198b96",
+                    "name": "A-0002",
+                    "digest": "91608198",
+                    "fields": {
+                        "Material Library Type": "Lineage",
+                        "Name": "A-0002"
+                    },
+                    "flags": {}
+                }
+            ],
+            "flags": {
+                "isSystem": false,
+                "canTrash": true,
+                "canEditName": true,
+                "isTemplate": false,
+                "canEdit": true,
+                "canWrite": true,
+                "isMine": true,
+                "canComment": true,
+                "isShared": true
+            },
+            "comments": {
+                "digest": "0",
+                "count": 0
+            },
+            "fields": {
+                "Description": "",
+                "Name": "A-0002-B-002"
+            },
+            "fieldDetails": {},
+            "attributeDetails": [],
+            "mandatory": false
+        },
         "fetched": true,
         "isCurrent": false,
         "createdAt": "2024-10-16T05:53:39.415Z",
         "modifiedAt": "2024-10-23T05:17:24.265Z",
-        "hasMoreBatches": false,
-        "canSelectBatches": false,
-        "hasSelectedBatches": false
-    },
-    {
-        "id": "batch:670f69aee887c700276d8e8a",
-        "name": "A-0002-B-020",
-        "type": "batch",
-        "dir": "child",
-        "mode": "closed",
-        "parent": "asset:66dfb8408c549236c1198b96",
-        "eid": "batch:670f69aee887c700276d8e8a",
-        "library": "Lineage",
-        "libraryId": "assetType:66d815fbdfeaf634f5477660",
-        "hasMore": false,
-        "fetched": true,
-        "isCurrent": false,
-        "createdAt": "2024-10-16T07:22:22.791Z",
-        "modifiedAt": "2024-10-23T05:17:24.376Z",
         "hasMoreBatches": false,
         "canSelectBatches": false,
         "hasSelectedBatches": false
